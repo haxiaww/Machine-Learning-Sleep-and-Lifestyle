@@ -94,10 +94,10 @@ The analysis begins with cleaning and preprocessing the dataset, including handl
 The project implements the following machine learning models:
 
 - **Clustering**: 
-  - K-Means clustering to group individuals based on their sleep health metrics and lifestyle factors.
+  - K-Means/HAC clustering to group individuals based on their sleep health metrics and lifestyle factors.
   
 - **Classification**:
-  - Logistic Regression and Random Forest classifiers to predict the presence of sleep disorders based on lifestyle and health metrics.
+  - Decision Tree/KNN/SVM classifiers to predict the presence of sleep disorders based on lifestyle and health metrics.
 
 ## Results
 
@@ -110,7 +110,3 @@ This project demonstrates the importance of understanding sleep health in relati
 ## Acknowledgement
 
 I would like to clarify that the data I am presenting is synthetic and created by me for illustrative purposes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
