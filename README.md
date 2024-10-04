@@ -106,7 +106,3 @@ The analysis yields insights into how various factors, such as stress levels, ph
 ## Conclusion
 
 This project demonstrates the importance of understanding sleep health in relation to lifestyle factors. The findings could inform strategies for improving sleep quality through targeted lifestyle changes.
-
-## Acknowledgement
-
-I would like to clarify that the data I am presenting is synthetic and created by me for illustrative purposes.
