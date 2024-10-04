@@ -48,16 +48,6 @@ The **Sleep Health and Lifestyle Dataset** comprises **400 rows** and **13 colum
 - Implement clustering algorithms to identify groups of individuals with similar sleep health characteristics.
 - Use classification models to predict sleep disorders based on the provided features.
 
-## Technologies Used
-
-- **Python**: Programming language for data analysis and machine learning
-- **Pandas**: Data manipulation and analysis library
-- **NumPy**: Fundamental package for numerical computations
-- **Matplotlib**: Plotting library for visualizing data
-- **Seaborn**: Statistical data visualization library based on Matplotlib
-- **Scikit-learn**: Machine learning library for implementing clustering and classification algorithms
-- **Jupyter Notebook**: Interactive environment for running the analysis and visualizations
-
 ## Installation Instructions
 
 To run this project, follow these steps:
