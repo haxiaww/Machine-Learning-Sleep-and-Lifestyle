@@ -2,27 +2,44 @@
 
 ## Project Overview
 
-This project explores the **Sleep Health and Lifestyle** dataset to analyze the relationships between various lifestyle factors and sleep health metrics. The dataset includes demographic information, lifestyle habits, and sleep health indicators, enabling insights into how different factors influence sleep quality and duration. The project employs **Exploratory Data Analysis (EDA)** to visualize trends and relationships, and **Machine Learning (ML)** techniques for clustering and classification of individuals based on their sleep health.
+This project explores the **Sleep Health and Lifestyle** dataset to analyze the relationships between various lifestyle factors and sleep health metrics. The dataset includes demographic information, lifestyle habits, and sleep health indicators, enabling insights into how different factors influence sleep quality and duration. The project employs **Exploratory Data Analysis (EDA)** to visualize trends and relationships and **Machine Learning (ML)** techniques for clustering and classification of individuals based on their sleep health.
 
-## Dataset Description
+## About the Dataset
 
-The dataset contains **374 rows** and **13 columns**, with the following features:
+### Dataset Overview
+
+The **Sleep Health and Lifestyle Dataset** comprises **400 rows** and **13 columns**, covering a wide range of variables related to sleep and daily habits. It includes details such as gender, age, occupation, sleep duration, quality of sleep, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps, and the presence or absence of sleep disorders.
+
+### Key Features of the Dataset
+
+- **Comprehensive Sleep Metrics**: Explore sleep duration, quality, and factors influencing sleep patterns.
+- **Lifestyle Factors**: Analyze physical activity levels, stress levels, and BMI categories.
+- **Cardiovascular Health**: Examine blood pressure and heart rate measurements.
+- **Sleep Disorder Analysis**: Identify the occurrence of sleep disorders such as Insomnia and Sleep Apnea.
+
+### Dataset Columns
 
 | Column Name            | Description                                                  |
 |-----------------------|--------------------------------------------------------------|
-| Person ID             | Unique identifier for each individual                        |
-| Gender                | Gender of the individual (Male/Female)                       |
-| Age                   | Age of the individual (in years)                            |
-| Occupation            | Occupation of the individual                                 |
-| Sleep Duration        | Average sleep duration (in hours)                           |
-| Quality of Sleep      | Sleep quality rating (scale of 1-10)                        |
-| Physical Activity Level| Average physical activity level (minutes per day)          |
-| Stress Level          | Self-reported stress level (scale of 1-10)                  |
-| BMI Category          | Body Mass Index (BMI) category (Normal, Overweight, Obese) |
-| Blood Pressure        | Blood pressure reading (Systolic/Diastolic)                 |
-| Heart Rate            | Resting heart rate (in beats per minute)                    |
-| Daily Steps           | Average daily steps taken                                    |
-| Sleep Disorder        | Any diagnosed sleep disorders (e.g., Sleep Apnea)           |
+| Person ID             | An identifier for each individual                            |
+| Gender                | The gender of the person (Male/Female)                      |
+| Age                   | The age of the person in years                              |
+| Occupation            | The occupation or profession of the person                  |
+| Sleep Duration (hours)| The number of hours the person sleeps per day               |
+| Quality of Sleep      | A subjective rating of the quality of sleep (scale: 1-10)  |
+| Physical Activity Level| The number of minutes the person engages in physical activity daily |
+| Stress Level          | A subjective rating of the stress level (scale: 1-10)      |
+| BMI Category          | The BMI category of the person (e.g., Underweight, Normal, Overweight) |
+| Blood Pressure        | The blood pressure measurement (systolic/diastolic)        |
+| Heart Rate            | The resting heart rate in beats per minute                  |
+| Daily Steps           | The number of steps the person takes per day                |
+| Sleep Disorder        | The presence or absence of a sleep disorder (None, Insomnia, Sleep Apnea) |
+
+#### Details about the Sleep Disorder Column:
+
+- **None**: The individual does not exhibit any specific sleep disorder.
+- **Insomnia**: The individual experiences difficulty falling asleep or staying asleep, leading to inadequate or poor-quality sleep.
+- **Sleep Apnea**: The individual suffers from pauses in breathing during sleep, resulting in disrupted sleep patterns and potential health risks.
 
 ## Key Objectives
 
@@ -89,3 +106,11 @@ The analysis yields insights into how various factors, such as stress levels, ph
 ## Conclusion
 
 This project demonstrates the importance of understanding sleep health in relation to lifestyle factors. The findings could inform strategies for improving sleep quality through targeted lifestyle changes.
+
+## Acknowledgement
+
+I would like to clarify that the data I am presenting is synthetic and created by me for illustrative purposes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
